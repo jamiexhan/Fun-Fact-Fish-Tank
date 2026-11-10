@@ -14,12 +14,6 @@ import './uistyle.css';
     "/plants 2.png",
   ];
 
-  const fish = [
-    "/fishies 1.png",
-    "/fishies 10.png",
-  ];
-
-
 
 function App() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -136,8 +130,8 @@ function toggleSound() {
         <img className="plants" src={plants[current]} alt="plants" />
     
         {/*fish*/}
-        <img src="/fishies 1.png" className="fish-layer" style={{ opacity: fishOpacity }} />
-        <img src="/fishies 10.png" className="fish-layer" style={{ opacity: 1 - fishOpacity }} />
+        <img src="/fishies 1.png" alt="fish 1" className="fish-layer" style={{ opacity: fishOpacity }} />
+        <img src="/fishies 10.png" alt="fish 10" className="fish-layer" style={{ opacity: 1 - fishOpacity }} />
 
         {/* fishing rod loading — only renders when isFishing is true */}
         {isFishing && (
@@ -149,7 +143,7 @@ function toggleSound() {
           <div className="fact-overlay">
             <div className="fact-content">
               <p className= "fact-text">I have a pet betta veiltail fish! Her name is Sapphire, Fire for short.</p>
-              <img src="/fire.gif" className="fact-image" />
+              <img src="/fire.gif" alt="pet fish"className="fact-image" />
               <div className="fact-buttons"> 
                   <button className="exit" onClick={() => setShowFact(false)}>Exit</button>
               </div>
