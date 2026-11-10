@@ -162,7 +162,7 @@ function toggleSound() {
       <div className="bottom">
         <div className="left-column">
           <h6 style={{ color: 'rgb(62, 141, 156)', textAlign: 'left', display: 'inline-flex'}}>Fun Fact Fish Tank</h6>
-          <p style={{ color: 'rgb(62, 141, 156)', textAlign: 'left', display: 'inline-flex' }}>Coded with React and TypeScript</p>
+          <p style={{ color: 'rgb(62, 141, 156)', textAlign: 'left', display: 'inline-flex' }}>Coded with React and TypeScript.</p>
         </div>
 
         <div className="right-column">
